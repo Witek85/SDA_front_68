@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document MODIFIED</title>
+</head>
+<body>
+    <p style="color: red; background-color: blue;">Lorem ipsum dolor sit amet,</b>
+    <p>Lorem ipsum 2</p>
+    <b>Ten tekst będzie pogrubiony</b>
+    <u>Ten podkreślony</u>
+    <input type="button" value="To będzie przycisk">
+    <input type="checkbox" value="A to pole do zaznaczenia">
+    <b>Ten tekst będzie pogrubiony, <i>a ten pogrubiony i pochylony</i></b>
+    <!-- Komentarz -->
+    <h1>Nagłówek 1</h1>
+    <p>Lorem ipsum dolor sit amet, <span style="background-color: blue;">consectetur adipiscing</span> elit. Nulla scelerisque lectus eget blandit varius. Aenean consectetur quis ligula non elementum. Aenean massa erat, vehicula quis dignissim sit amet, ornare nec ligula. Morbi facilisis odio vel faucibus tristique. Mauris quis magna sit amet ligula lacinia condimentum. Phasellus in blandit leo, a auctor ligula. Fusce placerat vel urna sit amet maximus. Aliquam erat volutpat. Duis nec accumsan velit.</p>
+    <h2 class="featured">Nagłówek 2</h2>
+    <div class="featured">tu nie zadziała</div>
+    <p>Fusce ornare eleifend lectus eu commodo. Quisque bibendum gravida orci, eu blandit leo ornare vel. Quisque bibendum in ante nec pretium. Sed id fringilla diam. Vivamus a erat facilisis, lobortis justo nec, lobortis sem. Vivamus eleifend nibh pulvinar tellus fermentum mattis. Praesent purus ex, condimentum et iaculis ut, aliquet eget nibh. Vivamus nulla nibh, accumsan a nulla faucibus, mattis viverra tellus. Donec rhoncus varius lacus, at efficitur turpis consectetur eu. Vestibulum vestibulum, erat viverra placerat vehicula, elit urna malesuada ante, sed malesuada nisi ex in ex. Donec volutpat at ipsum sit amet fermentum. Donec auctor sapien ex, at bibendum arcu scelerisque sodales. In scelerisque tincidunt mi, et gravida erat porta quis. Vivamus facilisis quis nibh at tempus. Sed dignissim turpis sed massa elementum viverra. Morbi tincidunt placerat sollicitudin.</p>
+    <h3>Nagłówek 3</h3>
+    <a href="https://sdacademy.pl/" target="_blank">
+        Link do strony Software Development Academy
+      </a>
+      <img src="https://i.imgur.com/r9Unhnz.jpeg" alt="Opis tekstowy obrazka" width="800" height="600"/>
+
+    <h2>Moje ulubione języki programowania</h2>
+    <ul>
+        <li>Javascript</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>PHP</li>
+    </ul>
+    <h3>Plan zajęć na dziś</h3>
+    <ol>
+        <li>Wypić herbatę</li>
+        <li>Zarobić kurs</li>
+        <li>Wyprowadzić psa na spacer</li>
+    </ol>
+    <table>
+        <tr>
+            <th>model</th>
+            <th>silnik</th>
+            <th>zużycie paliwa</th>
+            <th colspan="2">Cena</th>
+        </tr>
+        <tr>
+            <td>Ford Focus</td>
+            <td>diesel</td>
+            <td>5.5l/100km</td>
+            <td>140 tys. pln</td>
+            <td><a href="#">kup</a></td>
+        </tr>
+        <tr>
+            <td>Ford Focus</td>
+            <td>benzyna</td>
+            <td>6.5l/100km</td>
+            <td>120 tys. pln</td>
+            <td><a href="#">kup</a></td>
+        </tr>
+    </table>
+    <h2>Pierwszy formularz</h2>
+    <form action="index.html" method="GET">
+        <div>
+            <label for="firstname">Podaj swoje imię:</label>
+            <input type="text" name="firstname" />
+        </div>
+
+        <div>
+            <label for="lastname">Podaj swoje nazwisko:</label>
+            <input type="text" name="lastname" />
+        </div>
+
+        <div>
+            <label for="city">Miasto</label>
+            <select name="city">
+                <option value="warsaw">Warszawa</option>
+                <option value="cracow">Kraków</option>
+                <option value="other">Inne Miasto</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="message">Wyślij wiadomość</label>
+            <textarea name="message"></textarea>
+        </div>
+
+        <div>
+            <input type="checkbox" name="agreement" id="agreement"/>
+            <label for="agreement">Akceptuję regulamin</label>
+        </div>
+
+        <div>
+            <input type="radio" name="gender" value="female" /> Kobieta
+            <input type="radio" name="gender" value="male" /> Mężczyzna
+        </div>
+
+        <div>
+            <input type="file" name="upload" />
+            <label for="upload">Plik</label>
+        </div>
+
+        <div>
+            <label for="message">Numer telefonu</label>
+            <input id="number" type="number" value="42" />
+        </div>
+
+        <div>
+            <label for="awareness">% gotowości do pracy</label>
+            <input id="awareness" type="number" name="awareness" value="0" min="0" max="100" />
+        </div>
+
+        <div>
+            <label for="password">Password (8 characters minimum):</label>
+            <input type="password" id="password" name="password" minlength="8">
+        </div>
+
+
+<input  >
+
+        
+        <input type="submit" value="Wyślij">
+    </form>
+</body>
+</html>

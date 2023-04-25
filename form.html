@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document MODIFIED</title>
+</head>
+<body>
+    <h2>Wypełnij formularz, aby zakupić auto marzeń!</h2>
+    <form action="form.html" method="GET">
+        <div>
+            <label for="firstname">Imię:</label>
+            <input type="text" id="firstname" name="firstname" required/>
+        </div>
+        <div>
+            <label for="lastname">Nazwisko:</label>
+            <input type="text" name="lastname" required/>
+        </div>
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" />
+        </div>
+         <div>
+            <label for="phone_number">Nr tel:</label>
+            <input id="phone_number" type="number" name=phone_number"  />
+        </div>
+        <div>
+            <label for="city">Miasto:</label>
+            <select name="city">
+                <option value="warsaw">Warszawa</option>
+                <option value="cracow">Kraków</option>
+                <option value="oln">Olsztyn</option>
+                <option value="pos">Poznań</option>
+                <option value="gd">Gdańsk</option>
+                <option value="other">Inne Miasto</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="radio" name="gender" value="female" /> Kobieta
+            <input type="radio" name="gender" value="male" /> Mężczyzna
+        </div>
+        
+        <div>
+            <label for="color">Kolor karoserii:</label>
+            <select name="color">
+                <option value="red">czerwony</option>
+                <option value="blue">niebieski</option>
+                <option value="black">czarny</option>
+                <option value="white">biały</option>
+                <option value="green">zielony</option>
+                <option value="other">inny</option>
+
+            </select>
+        </div>
+
+        <div>
+            <input type="checkbox" name="agreement" id="agreement"/>
+            <label for="agreement">Wyrażam zgodę na przekazanie informacji o mnie</label>
+        </div>
+
+        <input type="submit" value="Wyślij">
+    </form>
+      
+</body>
+</html>

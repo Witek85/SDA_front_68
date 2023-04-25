@@ -1,0 +1,75 @@
+p {
+    /* background-color: aqua !important; */
+    /* border: 2px solid orange; */
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    color: purple
+}
+
+h2.featured {
+    color: palevioletred;
+    background-color: green;
+}
+
+.featured {
+    background-color: blue;
+}
+
+input {
+    background-color: yellow;
+}
+
+input[type="text"] {
+    background-color: red;
+}
+
+a {
+    color: orange;
+}
+
+td a {
+    color: black;
+    background-color: yellow;
+}
+
+.upper {
+    background-color: lightgray;
+}
+
+.upper a {
+    background-color: rgba(75, 82, 58, 0.5);
+}
+
+.upper a:visited {
+    background-color: blue;
+}
+
+.lower {
+    background-color: blueviolet;
+}
+
+.lower span {
+    background-color: red;
+}
+
+.lower span:hover {
+    background-color: yellow;
+}
+
+.with-children p {
+    background-color: yellow;
+}
+
+.with-children p:first-child, .with-children p:last-child {
+    background-color: red;
+}
+
+.with-children p:nth-child(3) {
+    background-color: blue;
+}
+
+.with-children p:nth-child(2n) {
+    background-color: green;
+}

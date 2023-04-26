@@ -1,6 +1,4 @@
-p {
-    /* background-color: aqua !important; */
-    /* border: 2px solid orange; */
+html {
     font-family: "Roboto", sans-serif;
 }
 
@@ -72,4 +70,147 @@ td a {
 
 .with-children p:nth-child(2n) {
     background-color: green;
+}
+
+.section-one {
+    background-color: #cecece;
+    color: #333;
+}
+
+.section-one h1 {
+    font-size: 44px;
+}
+
+.section-one h3 {
+    font-size: 10px;
+}
+
+.section-one div {
+    color: rgb(100, 23, 45);
+    background-color: rgba(100, 0, 45, 0.25);
+    border: 1px solid black;
+}
+
+.section-two {
+    text-align: center;
+}
+
+.section-two span {
+    font-weight: bold;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.section-two .left {
+    text-align: left;
+}
+
+.section-two .center {
+    text-align: center;
+}
+
+.section-two .right {
+    text-align: right;
+    font-weight: 700;
+}
+
+.section-two .justify {
+    text-align: justify;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.section-three {
+    height: 360px;
+    background-image: url('http://via.placeholder.com/500x360');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-three ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.section-three ul li {
+    display: inline-block;
+    background: blue;
+    border: 1px solid yellow;
+    padding: 10px 20px;
+    margin-right: 15px;
+}
+
+.section-three .container {
+    background: green;
+    padding: 30px;
+}
+
+.section-three .container .float {
+    background: yellow;
+    border: 1px solid red;
+    float: left;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.section-four {
+    padding: 50px 0;
+    box-sizing: border-box;
+    background: green;
+}
+
+.section-four .static,
+.section-four .relative,
+.section-four .absolute,
+.section-four .fixed {
+    border: 1px solid red;
+    margin-bottom: 30px;
+}
+
+.section-four .absolute{
+    position: relative;
+}
+
+.section-four .static .pink {
+    position: static;
+}
+
+.section-four .relative .pink {
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+.section-four .absolute .pink {
+    position: absolute;
+    width: 100%;
+    left: 30px;
+    top: 30px;
+}
+
+.section-four .fixed .pink {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+.pink {
+    background-color: lightPink;
+    height: 50px;
+}
+
+.blue {
+    background-color: lightBlue;
+    height: 50px;
 }
